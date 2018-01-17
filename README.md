@@ -9,11 +9,11 @@
   * CMS_VModels: View Model，和业务相关的视图类型的模型
   * CMS_Web_API: API 层
 2.  项目关系引用  
-	CMS_Core  <------  CMS_DAL  <------  CMS_Services  <------  CMS_Web_API
-	CMS_Core  <------  CMS_VModels  <------  CMS_Services
-	CMS_Core  <------  CMS_Services
-	CMS_Core  <------  CMS_Web_API
-	CMS_VModels  <------  CMS_Web_API
+	CMS_Core  <------  CMS_DAL  <------  CMS_Services  <------  CMS_Web_API  
+	CMS_Core  <------  CMS_VModels  <------  CMS_Services  
+	CMS_Core  <------  CMS_Services  
+	CMS_Core  <------  CMS_Web_API  
+	CMS_VModels  <------  CMS_Web_API  
   
 ## 项目使用介绍
   可直接下载该快速启动项目,在此基础上按照使用介绍进行扩展
