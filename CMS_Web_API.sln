@@ -11,7 +11,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CMS_VModels", "CMS_Models\C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CMS_Services", "CMS_Services\CMS_Services.csproj", "{DCC06853-9750-4471-97E1-DCB4F31F2FC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMS_Core", "CMS_Core\CMS_Core.csproj", "{C89C3026-0AE8-40DA-9CF8-7942BD0A6D8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CMS_Core", "CMS_Core\CMS_Core.csproj", "{C89C3026-0AE8-40DA-9CF8-7942BD0A6D8B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DA31A289-1696-4D31-AB21-C424A585250B}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
