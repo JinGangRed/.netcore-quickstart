@@ -19,6 +19,7 @@ namespace CMS_DAL
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            //UserMember的NickName唯一约束
             modelBuilder.Entity<UserMember>()
                 .HasAlternateKey(user => user.NickName)
                 .HasName("Unique key NickName");
